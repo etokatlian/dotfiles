@@ -22,7 +22,6 @@ brew cask install alfred
 brew cask install dash
 brew cask install discord
 brew cask install divvy
-brew cask install font-fira-code-nerd-font
 brew cask install google-chrome
 brew cask install istat-menus
 brew cask install iterm2

@@ -8,5 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Execute full install
+      - name: Execute base install
         run: chmod +x ./setup.sh
+      - name: Execute ZSH install
+        run: chmod +x ./install-zsh.sh

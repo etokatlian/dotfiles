@@ -15,3 +15,7 @@ source ./macos
 
 # Install fonts
 source ./osx-fonts.sh
+
+# Symlink VSCdoe keybinds and settings
+ln -s /Users/erictokatlian/dotfiles/vscode/keybindings.json /Users/erictokatlian/Library/Application\ Support/Code/User/keybindings.json
+ln -s /Users/erictokatlian/dotfiles/vscode/settings.json /Users/erictokatlian/Library/Application\ Support/Code/User/settings.json
